@@ -70,6 +70,10 @@ header nav li: last-child{
 
 /*banner area*/
 
+a:hover {
+	color: #A9A9A9;
+}
+
 section{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -144,6 +148,7 @@ section p{
 	background: crimson;
 	border-radius: 50px;
 	text-transform: uppercase;
+	float: left;
 }
 
 
@@ -161,6 +166,12 @@ section p{
 
 
 /*about area*/
+
+#background_txt {
+	font-family: sans-serif;
+	color: crimson;
+	font-size: 3em;
+}
 
 ul.about-content{
 	width: 100%;
@@ -182,11 +193,11 @@ ul.about-content{
 	background-position: center;
 }
 .about-left{
-	flex-basis: 40%;
-	background-image: url(images/bg2.jpg);
+	flex-basis: 30%;
+	background-image: url(images/j1.jpg);
 }
 .about-right{
-	flex-basis: 60%;
+	flex-basis: 70%;
 }
 .about-area p{
 	max-width: 800px;
@@ -266,11 +277,6 @@ ul.services-content{
 		padding:0;
 	}
 }
-
-
-
-
-
 
 
 
